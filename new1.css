@@ -1,0 +1,132 @@
+body {
+    background-color: #282c34;
+
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container1 {
+    display: table-column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* padding: 50px; */
+    height: 100vh;
+    background-size: cover;
+    /* margin-top: 20px; */
+
+}
+
+.container2 {
+    background-image: url('new1.webp');
+}
+
+.none {
+    display: none;
+}
+
+#h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    background-color: #FFFDEC;
+    font-style: italic;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: max-content;
+    margin-left: 380px;
+    color: #5CB338;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.time {
+    font-size: 2em;
+    margin: 0 10px;
+    padding: 20px;
+    background: rgba(175, 16, 16, 0.1);
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.label {
+    font-weight: 800;
+    font-size: 1em;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.celebration-image {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: -90px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+#celebration-message {
+    margin-top: 20px;
+}
+
+
+.video-container {
+    position: relative;
+    width: 50%;
+    max-width: 900px;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+.video-container1 {
+    position: relative;
+    bottom: 384px;
+    left: 675px;
+    width: 15.8%;
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    margin-left: 190px;
+    
+}
+
+
+video {
+
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px 0px 0px 20px;
+    filter: brightness(0.9) contrast(1.2) saturate(1.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.video1{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0px 20px 20px 0px;
+    filter: brightness(0.9) contrast(1.2) saturate(1.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+}
